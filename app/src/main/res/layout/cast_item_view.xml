@@ -10,29 +10,23 @@
     app:layout_constraintStart_toStartOf="parent"
     app:layout_constraintTop_toTopOf="parent">
 
-    <LinearLayout
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/castImageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/castNameTextView"
+        style="@style/TextAppearance.AppCompat.Caption"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
-
-        <androidx.appcompat.widget.AppCompatImageView
-            android:id="@+id/castImageView"
-            android:layout_width="match_parent"
-            android:layout_height="100dp"/>
-
-        <TextView
-            android:id="@+id/castNameTextView"
-            style="@style/TextAppearance.AppCompat.Caption"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="8dp"
-            android:ellipsize="end"
-            android:fontFamily="@font/montserrat_alternates"
-            android:lines="1"
-            android:textAlignment="center"
-            app:layout_constraintEnd_toEndOf="@id/castCardView"
-            app:layout_constraintStart_toStartOf="@id/castCardView"
-            app:layout_constraintTop_toBottomOf="@id/castCardView" />
-
-    </LinearLayout>
+        android:layout_margin="8dp"
+        android:ellipsize="end"
+        android:fontFamily="@font/montserrat_alternates"
+        android:lines="1"
+        android:textAlignment="center"
+        android:textColor="@color/Black_100"
+        app:layout_constraintEnd_toEndOf="@id/castCardView"
+        app:layout_constraintStart_toStartOf="@id/castCardView"
+        app:layout_constraintTop_toBottomOf="@id/castCardView" />
 </androidx.cardview.widget.CardView>
