@@ -1,6 +1,7 @@
 package com.zalo.movieapp.presentation.home
 
 import androidx.lifecycle.ViewModel
+import androidx.lifecycle.viewModelScope
 import androidx.paging.*
 import com.zalo.movieapp.data.local.database.MovieDao
 import com.zalo.movieapp.data.local.database.RemoteKeyDao
@@ -32,7 +33,7 @@ class HomeViewModel @Inject constructor(
                 movieDao = movieDao
             ),
             pagingSourceFactory = { movieDao.getPagedLocalMovies() }
-        ).flow
+        ).flow.cachedIn(viewModelScope)
     }
 }
 
