@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.MovieApp" parent="Theme.MaterialComponents.DayNight.NoActionBar.Bridge">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="fontFamily">@font/montserrat_alternates</item>
+    </style>
+
+    <style name="Theme.TabLayout" parent="Theme.MovieApp">
+        <item name="tabSelectedTextColor">@color/material_color_red_50</item>
+        <item name="tabIndicatorColor">@color/material_color_red_100</item>
+        <item name="tabBackground">@color/Black_100</item>
+    </style>
+
+    <style name="Theme.MovieApp.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.MovieApp.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.MovieApp.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>
