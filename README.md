@@ -2,13 +2,13 @@
 <table>
 <tr>
 <td>
-<img  width="200" height="400" src="./screenshort/1.png"/>
+<img  width="200" height="400" src="./screenshorts/1.png"/>
 </td>
 <td>
-<img  width="200" height="400" src="./screenshort/2.png"/>
+<img  width="200" height="400" src="./screenshorts/2.png"/>
 </td>
 <td>
-<img  width="200" height="400" src="./screenshort/2.png"/>
+<img  width="200" height="400" src="./screenshorts/2.png"/>
 </td>
 </tr>
 </table>
