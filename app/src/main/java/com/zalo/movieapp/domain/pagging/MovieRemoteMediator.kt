@@ -22,9 +22,6 @@ class MovieRemoteMediator @Inject constructor(
     private val movieRepository: MovieRepository
 ) : RemoteMediator<Int, MoviesEntity>() {
 
-    override suspend fun initialize(): InitializeAction {
-        return InitializeAction.LAUNCH_INITIAL_REFRESH
-    }
     override suspend fun load(
         loadType: LoadType,
         state: PagingState<Int, MoviesEntity>
