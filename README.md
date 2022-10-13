@@ -1,3 +1,18 @@
+
+<table>
+<tr>
+<td>
+<img  width="200" height="400" src="./screenshort/1.png"/>
+</td>
+<td>
+<img  width="200" height="400" src="./screenshort/2.png"/>
+</td>
+<td>
+<img  width="200" height="400" src="./screenshort/2.png"/>
+</td>
+</tr>
+</table>
+
 # The Movie Database API
 A simple Android app that displays movie and their details
 from <https://www.themoviedb.org/>
