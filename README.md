@@ -8,7 +8,7 @@
 <img  width="200" height="400" src="./screenshorts/2.png"/>
 </td>
 <td>
-<img  width="200" height="400" src="./screenshorts/2.png"/>
+<img  width="200" height="400" src="./screenshorts/3.png"/>
 </td>
 </tr>
 </table>
