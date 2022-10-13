@@ -108,6 +108,7 @@
         style="@style/TextAppearance.AppCompat.Large"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
         android:fontFamily="@font/montserrat_alternates"
         android:gravity="start"
         android:text="@string/cast"
